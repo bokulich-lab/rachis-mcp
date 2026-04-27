@@ -10,7 +10,7 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "rachis-mcp",
 	"main": "src/index.ts",
-	"compatibility_date": "2025-03-10",
+	"compatibility_date": "2026-04-27",
 	"compatibility_flags": [
 		"nodejs_compat"
 	],
@@ -33,18 +33,7 @@
 	"observability": {
 		"enabled": true
 	},
-	"routes": [
-		{
-			"pattern": "rachis-mcp.terrestryal.com",
-			"zone_name": "terrestryal.com",
-			"custom_domain": true
-		},
-		{
-			"pattern": "rachis-mcp.ziemski.dev",
-			"zone_name": "ziemski.dev",
-			"custom_domain": true
-		}
-	],
+	"routes": [],
 	"workers_dev": true,
 	"preview_urls": true,
 	/**
